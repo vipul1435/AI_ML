@@ -2,14 +2,15 @@
 
 class Student:
 
-    # class variable
+# class variable
     school = "ABC School"
 
-    #defaul constructor
-    def __init__(self): # self is a reference to the current instance of the class like in c++ this pointer
+#defaul constructor
+    def __init__(self): # Self is a reference to the current instance of the class like in c++ this pointer
+#self is the address of the current object
         print("This is a constructor")
     
-    # parameterized constructor
+# parameterized constructor
     def __init__(self, name, age):
         self.name = name
         self.age = age
